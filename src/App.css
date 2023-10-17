@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.parentDiv{
+  max-width: 400px;
+  height: 100%;
+  background-color:#1A1B21 ;
+}
+
+.heroImg{
+  width :100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.heroImg img{
+  width :50%;
+  margin-top: 15px;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+.parentDiv h1{
+  margin: 10px;
+  font-size: 35px;
+}
+
+
+
+.myWebsiteTag{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+.myWebsiteTag a{
+  color: #61DAFB;
+  font-weight: 700;
+}
+
+.btnDiv{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+.mailIconBtn, .linkedIconBtn{
+  margin-right: 5px;
+  font-size: 18px;
+  align-items: center;
+}
+
+.emailBtn{
+  width: 40%;
+  color: black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.linkedinBtn{
+  width: 40%;
+  color: black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.aboutTag{
+  margin-top: 50px;
+}
+
+.parentDiv h3{
+  text-align: start;
+  margin-left: 30px;
+}
+
+.parentDiv h5{
+  margin-left: 30px;
+  text-align: start;
+  margin-bottom: 50px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+ padding: 20px 45px;
+ background-color: #131415;
+}
+
+.footerIcon {
+  color: gray;
+  font-size: 25px;
+}
+
